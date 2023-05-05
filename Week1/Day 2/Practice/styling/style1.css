@@ -1,0 +1,26 @@
+h1{
+    background-color: black;
+    margin: 10px;
+}
+h2{
+    background-color: rgba(89, 6, 106, 0.796);
+    font-family: cursive;
+    text-align: center;
+    margin: 10px;
+    color: aliceblue;
+}
+h3{
+    background-color: rgb(87, 167, 246);
+    font-family: cursive;
+    text-align: end;
+    text-decoration: underline;
+    margin: 10px;
+}
+#word1{
+    color: aliceblue;
+    font-family: cursive;
+}
+#word2{
+    color: aqua;
+    font-family: cursive;
+}
