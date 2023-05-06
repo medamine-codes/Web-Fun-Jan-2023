@@ -1,0 +1,36 @@
+body{
+    background-color: aquamarine;
+}
+h1{
+    font-size:50px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.row1{
+    background-color: darkslategray;
+    height: 320px;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+
+
+}
+.row2{
+    background-color: chartreuse;
+    height: 320px;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+}
+.row3{
+background-color: darkgreen;
+height: 320px;
+margin: 30px;
+display: flex;
+justify-content: center;
+}
+.img{
+    margin-left: auto;
+    margin-right: auto;
+}
