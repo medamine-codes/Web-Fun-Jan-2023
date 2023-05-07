@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #f3f3f3;
+    font-family: 'Roboto', sans-serif;
+}
+
+.flex-container {
+    width:90%%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* navbar styling */
+.nav {
+    background-color: #333333;
+    color: #ffffff;
+    height: 80px;
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+}
+
+.nav-links {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin-right: 500px; ;
+}
+
+
+.nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.nav-title {
+    margin-left: 80px;
+}
+
+.btn {
+    height: 35px;
+    width: 100px;
+    background-color: #17a2b8;
+    color: #ffffff;
+    border: none;
+    font-size: 16px;
+    box-shadow: 5px 5px #000000;
+    margin-right: 50px;
+}
+
+
+
+/* user-card styling*/
+.user-card {
+    width: 40%;
+    background-color: #fff;
+    border: 2px solid #999;
+    margin-top: 100px;
+    margin-left: 50px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    overflow: hidden;
+}
+
+.card-header {
+    background-color: #17a2b8;
+    height: 125px;
+    margin-bottom: 70px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-body h1, 
+.card-body h2,
+.card-body h3,
+.card-body p {
+    margin: 20px 0px;
+}
+
+.avatar-m {
+    border-radius: 50%;
+    background-color: #fff;
+    height: 190px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.icon-s {
+    height: 20px;
+}
+
+a {
+    color: #3a81e6;
+}
+/*requests styling*/
+
+.requests{
+    width: 20%;
+    background-color: #fff;
+    border: 2px solid #999;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    margin-right: 300px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.req-header{
+    height: 50px;
+    background-color: #333333;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+}
+#req-num{
+    margin: 9px;
+    background-color: #f3f3f3;
+    color: #000000;
+    border-radius: 50%;
+    padding: 3%;
+}
+#text{
+    margin-top: 17px;
+}
+.avatar-s{
+    height: 30px;
+    width: 30px;
+}
+.boddies{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+}
