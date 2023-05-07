@@ -1,0 +1,30 @@
+h1{
+    margin-left: 21.44px;
+    color: #fff;
+}
+.nav{
+    background-color: darkgrey;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+}
+.nav-links{
+    display: flex;
+    list-style-type: none;    
+    
+}
+a{
+    text-decoration: none;
+    color: #fff;
+
+}
+li{
+    margin-right: 16px;
+    margin-top: 21.44px;
+    margin-bottom: 21.44px;
+}
+.btn{
+    background-color: aqua;
+    box-shadow: 10px 5px 5px black;
+    border-width: 3px;
+}
